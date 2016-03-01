@@ -35,4 +35,4 @@ publish:
         checksum:
             - md5
         when:
-            branch: [master, devel, test]
+            event: [tag]
