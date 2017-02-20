@@ -1,0 +1,45 @@
+package: .
+import:
+- package: github.com/Masterminds/glide
+  version: ^0.12.3
+  subpackages:
+  - cfg
+  - path
+- package: github.com/Sirupsen/logrus
+  version: ^0.11.2
+- package: github.com/blang/semver
+  version: ^3.5.0
+- package: github.com/bmatcuk/doublestar
+  version: ^1.0.9
+- package: github.com/facchinm/systray
+  subpackages:
+  - example/icon
+- package: github.com/getlantern/systray
+- package: github.com/gin-gonic/gin
+  version: ^1.1.4
+- package: github.com/googollee/go-socket.io
+- package: github.com/inconshreveable/go-update
+- package: github.com/itsjamie/gin-cors
+  version: ^1.0.0
+- package: github.com/kardianos/osext
+- package: github.com/kr/binarydist
+- package: github.com/mattn/go-shellwords
+  version: ^1.0.2
+- package: github.com/oleksandr/bonjour
+- package: github.com/pkg/errors
+  version: ^0.8.0
+- package: github.com/sfreiberg/simplessh
+- package: github.com/skratchdot/open-golang
+  subpackages:
+  - open
+- package: github.com/spf13/cobra
+- package: github.com/vharitonsky/iniflags
+- package: github.com/xrash/smetrics
+- package: go.bug.st/serial.v1
+  subpackages:
+  - enumerator
+- package: golang.org/x/crypto
+  subpackages:
+  - openpgp
+testImport:
+- package: github.com/mitchellh/go-homedir

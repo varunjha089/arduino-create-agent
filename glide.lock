@@ -1,0 +1,61 @@
+hash: cdb6b00814089f3d8ce9ffbb8fd6d75cd0ed8d3483ac3a4266e1b0915303c82d
+updated: 2017-02-20T12:12:52.386996873+01:00
+imports:
+- name: github.com/blang/semver
+  version: b38d23b8782a487059e8fc8773e9a5b228a77cb6
+- name: github.com/bmatcuk/doublestar
+  version: b3608229437ba4dc33dae64d56a79a2a73f1f6b2
+- name: github.com/facchinm/systray
+  version: b32308b0b662e45cde7c5986bc29def5d48bafbb
+  subpackages:
+  - example/icon
+- name: github.com/getlantern/systray
+  version: cdae0bdf2aeae3ffb5ffe0cd2e2f83443ca9d104
+- name: github.com/gin-gonic/gin
+  version: e2212d40c62a98b388a5eb48ecbdcf88534688ba
+- name: github.com/googollee/go-socket.io
+  version: e9f0a9b7a61267e1476f9f0a0429337813c39edd
+- name: github.com/inconshreveable/go-update
+  version: 8152e7eb6ccf8679a64582a66b78519688d156ad
+- name: github.com/itsjamie/gin-cors
+  version: 97b4a9da79331dfa2b6d35f4cdd1e50f5148859c
+- name: github.com/kardianos/osext
+  version: 6e7f843663477789fac7c02def0d0909e969b4e5
+- name: github.com/kr/binarydist
+  version: 9955b0ab8708602d411341e55fffd7e0700f86bd
+- name: github.com/Masterminds/glide
+  version: 84607742b10f492430762d038e954236bbaf23f7
+  subpackages:
+  - cfg
+  - path
+- name: github.com/mattn/go-shellwords
+  version: 005a0944d84452842197c2108bd9168ced206f78
+- name: github.com/oleksandr/bonjour
+  version: 5dcf00d8b228be86307f952f550f2191d956b9e2
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/sfreiberg/simplessh
+  version: e2df5a8be6f36be66ed1af2e8767a354788e902b
+- name: github.com/Sirupsen/logrus
+  version: c078b1e43f58d563c74cebe63c85789e76ddb627
+- name: github.com/skratchdot/open-golang
+  version: 75fb7ed4208cf72d323d7d02fd1a5964a7a9073c
+  subpackages:
+  - open
+- name: github.com/spf13/cobra
+  version: ee4055870c2d5f7ce112642377e32c9929c3bbaf
+- name: github.com/vharitonsky/iniflags
+  version: 94db042d45d83a94a8cfc494a6800ce1b5edd5e4
+- name: github.com/xrash/smetrics
+  version: 81a89232431423f9140fa413823ce3045f02f19c
+- name: go.bug.st/serial.v1
+  version: 51237629e65e07ff4849549128fc96417cfa9eca
+  subpackages:
+  - enumerator
+- name: golang.org/x/crypto
+  version: f18420efc3b4f8e9f3d51f6bd2476e92c46260e9
+  subpackages:
+  - openpgp
+testImports:
+- name: github.com/mitchellh/go-homedir
+  version: ""
